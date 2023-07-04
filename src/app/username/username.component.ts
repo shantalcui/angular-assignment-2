@@ -18,7 +18,7 @@ export class UsernameComponent {
 
     onSearch() {
         this.searchResult = "Welcome " + this.userName + "!";
-
+        this.userName = '';
     }
 
     isNotEmpty() {
