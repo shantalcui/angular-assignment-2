@@ -16,7 +16,7 @@ export class UsernameComponent {
 
     ngOnInit() { }
 
-    onSearch() {
+    onSubmit() {
         this.searchResult = "Welcome " + this.userName + "!";
         this.userName = '';
     }
